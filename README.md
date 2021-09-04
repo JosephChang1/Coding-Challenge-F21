@@ -32,4 +32,11 @@ Regardless if you can or cannot answer the question, provide a short explanation
 
 ## Explanation
 I was inexperienced with sentiment analysis, so I used google to search for helpful informations. Among different libraries, I found blobtext and nltk to be the easiest ones to use, and I choose to use nltk and build-in VADER function for my code.
+One of the helpful tutorials: https://www.nltk.org/howto/sentiment.html
+
 I first tokenize the text into sentences then analyze the polarity score of each sentence. I sum those scores and simply average them to get the final score.
+The results are:
+positive score 0.1461875
+negetive score 0.11078124999999998
+compound score 0.171221875
+Compound score will be the final score, and value indicates that the passage is slightly positive.
