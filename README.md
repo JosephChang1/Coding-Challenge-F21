@@ -30,3 +30,6 @@ Submissions will be evaluated holistically and based on a combination of effort,
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
 
+## Explanation
+I was inexperienced with sentiment analysis, so I used google to search for helpful informations. Among different libraries, I found blobtext and nltk to be the easiest ones to use, and I choose to use nltk and build-in VADER function for my code.
+I first tokenize the text into sentences then analyze the polarity score of each sentence. I sum those scores and simply average them to get the final score.
