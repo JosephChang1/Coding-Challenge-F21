@@ -4,14 +4,14 @@ Created on Wed Sep 1 00:33:39 2021
 
 @author: joseph
 """
-
+#import nltk
+#nltk.download()
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk import tokenize
 
 #read the input file
 f = open('input.txt','r')
 text = f.read()
-text = text.lower()
 
 #split the text into sentences
 sentences = tokenize.sent_tokenize(text)
