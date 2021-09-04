@@ -39,4 +39,7 @@ The results are:
 positive score 0.1461875
 negetive score 0.11078124999999998
 compound score 0.171221875
-Compound score will be the final score, and value indicates that the passage is slightly positive.
+
+Compound score will be the final score, and value indicates that the passage is slightly positive. This score is somewhat close to my prediction. The first part seems to be negative and second part is neutral or slightly positive. Because the second part seems longer and conclusive, slightly positive or neutral is what I expected to be the overall score, and the computed score is very close to my prediction.
+
+I only used simple average to get the overall score, so I believe there are still many aspects that I can improve such as using the length as weight or using stopwords to improve precision. Knowing there are still so much to learn makes me really want to use this opportunity to be a part of ACM.
