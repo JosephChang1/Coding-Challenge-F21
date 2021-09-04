@@ -30,6 +30,7 @@ for sentence in sentences:
 
 print("Average overall score: ")
 #average the sum of scores
-print("compound score", comp_score_sum/len(sentences))
+
 print("positive score", pos_score_sum/len(sentences))
 print("negetive score", neg_score_sum/len(sentences))
+print("compound score", comp_score_sum/len(sentences))
