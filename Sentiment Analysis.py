@@ -20,13 +20,13 @@ pos_score_sum = 0
 comp_score_sum = 0
 neg_score_sum = 0
 
-sid = SentimentIntensityAnalyzer()
+SIA = SentimentIntensityAnalyzer()
 
 #sum the polarity scores of each sentences
 for sentence in sentences:
-    comp_score_sum += sid.polarity_scores(sentence)['compound']
-    pos_score_sum += sid.polarity_scores(sentence)['pos'] 
-    neg_score_sum += sid.polarity_scores(sentence)['neg'] 
+    comp_score_sum += SIA.polarity_scores(sentence)['compound']
+    pos_score_sum += SIA.polarity_scores(sentence)['pos'] 
+    neg_score_sum += SIA.polarity_scores(sentence)['neg'] 
 
 print("Average overall score: ")
 #average the sum of scores
